@@ -1,10 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(../img/wasser.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
 }
 /* raleway-200 - latin */
 @font-face {
@@ -34,16 +30,24 @@ body{
   }
 /* Header */
 header{
-    border-bottom: 1px solid #fff;
-    margin-bottom: 2%;
-    background-color: #FFFFFF;
-    height: 70px;
-    position: sticky;
+    background: url(../img/wasser.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    overflow: hidden;
+    background-attachment: fixed;
 }
 .flexbox{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 2%;
+    background-color: #FFFFFF;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 li>a:hover{
     color: #745cf9;
@@ -94,14 +98,36 @@ ul{
     text-decoration: none;
     text-transform: uppercase;
 }
+/* Hover effekt */
 .bttn1{
     background: #745cf9;
-    padding: 1em 4em;
     border: 1px solid #745cf9;
+    padding: 1em 4.4em;
     box-sizing: border-box;
+    transition: all .2s ease-in-out;
+}
+.bttn1:hover{
+    background: #6a51f9de;
+    transition: all .2s ease-in-out;
 }
 .bttn2{
     border: 1px solid #FFFFFF;
-    padding: 1em 2.8em;
+    padding: 1em 2.6em;
     box-sizing: border-box;
+    transition: all .2s ease-in-out;
+}
+.bttn2:hover{
+    background: #fff;
+    transition: all .2s ease-in-out;
+    color: black;
+}
+/* Mitte ENDE */
+/* SEO MITTE */
+.seo{
+    height: 800px;;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 120vh;  
 }
