@@ -122,12 +122,35 @@ ul{
     color: black;
 }
 /* Mitte ENDE */
-/* SEO MITTE */
-.seo{
-    height: 800px;;
-    background: #fff;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
-    height: 120vh;  
+/* Mac SEO FRIENDLY */
+.mac3 img{
+    width: 50%;
+    float: left;
+    margin-left: 6em;
+    padding-right: 8em;
+}
+.mac2 h2{
+    font-family: 'Raleway';
+    padding-top: 5%;
+    color: rgb(97, 97, 97);
+    font-size: 2.5em;
+}
+.mac2 p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1em;
+    align-content: center;
+    color: rgb(97, 97, 97);
+    word-spacing: 3px;
+    line-height: 160%;
+    padding-right: 9%;
+}
+.mac2 a{
+    text-decoration: none;
+    color: #fff;
+    padding: .8em 3em;
+    background: #745cf9;
+    margin-top: 2em;
+    display: inline-block;
 }
